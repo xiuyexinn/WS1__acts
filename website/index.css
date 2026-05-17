@@ -1,0 +1,441 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: top;
+  height: 100vh;
+}
+
+.background {
+  width: 600px;
+  height: 1800px;
+  background-color: #11002A;
+  border: 5px solid;
+  border-radius: 12px;
+  border-color: #C746FF;
+  position: relative;
+  flex-direction: row;
+}
+
+hr.color {
+  border: none;
+  height: 5px;
+  margin-top: 0px;
+  background-color: #C746FF;
+}
+.close-button {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  font-size: 20px;
+  color: #C746FF;
+}
+h1 {
+  font-family: 'Pixelify Sans', serif;
+}
+p {
+  font-family: 'Pixelify Sans', serif;
+  color: white;
+}
+td {
+  font-family: 'Pixelify Sans', serif;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  font-size: 10px;
+  color: white;
+}
+.exit-button {
+  padding-left: 135%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 22px;
+  color: #C746FF;
+}
+table {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.about-me {
+  width: 95%;
+  height: 13%;
+  margin: 0 auto;
+  margin-top: 16px;
+  left: 100%;
+  background-color: #4A00A0;
+  opacity: 0.8;
+}
+.profile img {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+body {
+  background-repeat:;
+}
+.name span {
+  color: #FE00E9;
+}
+
+p.rix {
+  font-size: 50px;
+  color: #FE00E9;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: -30px;
+  vertical-align: top;
+  margin-top: -40px;
+  margin-bottom: 0px;
+}
+.name p{
+  padding-top: -50px;
+  margin-top: 0px;
+}
+td.playing {
+  padding-top: -30px;
+}
+td.name {
+  padding-bottom: 0px;
+  width: 500px;
+}
+span.spotify {
+  color: #B6F500;
+  margin-right: 0px;
+  text-shadow: 0 0 10px #B6F500,
+  0 0 20px #B6F500,
+  0 0 40px #B6F500,
+  0  0 80px #B6F500;
+}
+.about.me {
+  font-size: 10px;
+}
+p {
+  font-size: 20px;
+  color: #FFFF;
+  margin-top: 12px;
+}
+b {
+  padding-bottom: 0px;
+}
+.song {
+  font-size: 11px;
+  margin-top: 40px;
+  padding-right: -30px;
+}
+.socials {
+  background-color: #4A00A0;
+  padding: 12px;
+  margin: 18px;
+  width: 35%;
+  height: 65%;
+}
+.social {
+  color: #FE00E9;
+  margin-bottom: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 20px;
+}
+table.assets {
+  margin-top: 0;
+  padding-top: 0px;
+}
+table.assets tr{
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
+  font-size: 15px;
+}
+table.assets td {
+  padding-top: 15px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+td.cwm {
+  color: #FE00E9;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+.socials p {
+  font-size: 20px;
+  color: #FE00E9;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin: 0;
+  margin-bottom: 0;
+}
+.second-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 600px;
+  height: 500px;
+}
+.songs {
+  align-items: flex-start;
+  margin-top: 19px;
+  margin-left: 1;
+  padding-left: 0;
+  width: 51%;
+  height: 70%;
+}
+div.album-table{
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+p.title-album {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 0px;
+}
+.albums {
+  margin-top: 0px;
+  margin: 4px;
+  padding-top: 0px;
+}
+p.top-songs {
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: #FE00E9;
+  font-size: 25px;
+  font-weight: 900;
+}
+tr.artists td{
+  font-size: 20px;
+  text-shadow: 0 0 10px #FE00E9,
+  0 0 20px #FE00E9,
+  0 0 40px #FE00E9,
+  0  0 80px #FE00E9;
+}
+
+p.cat {
+  padding-bottom: 50px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  margin-top: -15px;
+  text-align: right;
+}
+p.divider {
+  margin-top: -65px;
+  margin-left: -20px;
+}
+p.pref {
+  font-size: 20px;
+  margin-top: -70px;
+  margin-left: -11px;
+  text-align: top;
+  color: #FE00E9;
+  text-shadow: 0 0 5px #FE00E9,
+  0 0 5px #FE00E9,
+  0 0 8px #FE00E9,
+  0  0 15px #FE00E9;
+}
+
+div.likes {
+  overflow-y: auto;
+  width: 50%;
+  height: 28%;
+  margin-left: 18px;
+  margin-top: -120px;
+  scrollbar-width: none;
+}
+.likes p {
+  font-size: 25px;
+  color: #FE00E9;
+  margin-top: 0px;
+  margin-left: 10px;
+  text-shadow: 0 0 5px #FE00E9,
+  0 0 5px #FE00E9,
+  0 0 8px #FE00E9,
+  0  0 15px #FE00E9;
+}
+.likes table {
+  padding-top: 0px;
+  padding-left: 0px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.likes ul {
+  font-size: 25px;
+  padding-right: 0px;
+  margin: 0px;
+  margin-left: -40px;
+}
+.likes hr {
+  border: none;
+  height: 2px;
+  background-color: #C746FF;
+}
+.likes span {
+  color: #FE00E9;
+  text-shadow: 0 0 5px #FE00E9,
+  0 0 5px #FE00E9,
+  0 0 8px #FE00E9,
+  0  0 15px #FE00E9;
+}
+.dislikes span {
+  color: red;
+  text-shadow: 0 0 5px red,
+  0 0 5px red,
+  0 0 8px red,
+  0  0 15px red;
+}
+div.space-eater {
+  margin-top: 270px;
+  margin-left: -25px;
+}
+.space-eater p {
+  align-items: right;
+  margin-top: -200px;
+}
+.space {
+  width: 260px;
+  height: 436px;
+  border-color: #C746FF;
+  margin-top: 100px;
+  margin-right: -50px;
+  margin-left: 60px;
+}
+div.game-section {
+  margin-top: 30px;
+  margin-bottom: -33px;
+  margin-left: 20px;
+  background-color: #4A00A0;
+  width: 557px;
+}
+.game-section p {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #FE00E9;
+}
+.game-section span {
+  text-shadow: 0 0 5px #FE00E9,
+  0 0 5px #FE00E9,
+  0 0 8px #FE00E9,
+  0  0 15px #FE00E9;
+}
+div.games-info {
+  overflow-x: auto;
+  background-color: #4A00A0;
+  width: 557px;
+  height: 150px;
+  margin-top: -4px;
+  margin-left: 20px;
+  scrollbar-width: none;
+}
+.games-info table {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.games-info p {
+  padding-top: 4px;
+  padding-right: 30px;
+}
+.games-info span {
+  color: #FE00E9;
+  
+}
+.games-info img {
+  border: 2px solid;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #FFFFFF,
+  0 0 5px #FFFFFF,
+  0 0 8px #FFFFFF,
+  0  0 15px #FFFFFF;
+}
+div.long-divider {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.long-divider td {
+  padding: 0px;
+}
+div.artwork {
+  margin-top: -363px;
+  margin-left: 20px;
+  background-color: #4A00A0;
+  width: 280px;
+  height: 50px;
+}
+.artwork p {
+  color: #FE00E9;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+div.art-dumps {
+  overflow-x: auto;
+  background-color: #4A00A0;
+  width: 280px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: -1px;
+  
+}
+
+.art-dumps table{
+  overflow-x: auto;
+  margin-left: 10px;
+}
+.art-dumps td {
+  padding-bottom: 0px;
+}
+div.pets {
+  background-color: purple;
+}
+div.pet2 {
+  background-color: #4A00A0;
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 320px;
+  margin-bottom: 0px;
+}
+.pet2 p {
+  padding-top: 7px;
+  padding-left: 8px;
+  font-size: 25px;
+  color: #FE00E9;
+  font-weight: bold;
+}
+div.pet-table {
+  overflow-y: auto;
+  background-color: #4A00A0;
+  width: 259px;
+  height: 313px;
+  margin-left: 320px;
+  margin-top: -26px;
+}
+.pet-table table {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.pet-table img {
+  border: 2px dashed;
+  border-color: #FE00E9;
+}
+p.cat1 {
+  margin-left: 500px;
+  margin-top: -136px;
+}
+.cat1 img {
+  transform: scaleX(-1);
+}
+p.brown {
+  margin-top: -130px;
+  margin-left: 187px;
+}
